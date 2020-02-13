@@ -130,4 +130,6 @@ class ControllerPadViewController: UIViewController {
 
         present(helpNavigationController, animated: true, completion: nil)
     }
+    
 }
+

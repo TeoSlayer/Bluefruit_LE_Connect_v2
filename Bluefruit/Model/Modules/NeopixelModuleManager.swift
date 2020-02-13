@@ -326,6 +326,13 @@ class NeopixelModuleManager: NSObject {
 
         return (r, g, b)
     }
+    
+    func SemnalizareDreapta(){
+        while(1)
+        {
+            
+        }
+    }
 
     func setImage(completion: ((Bool) -> Void)?) {
         DLog("Command: set Image")
